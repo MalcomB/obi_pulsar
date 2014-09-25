@@ -1,0 +1,137 @@
+
+/*Custom CSS styles for the project*/
+
+.aim_color{color:#E77237;}
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	background:#E77237;
+}
+
+
+[class*="block-grid-"]{
+	margin: 0.3rem;
+}
+
+
+.accordion dd .content{color:#999;}
+.accordion dd.active > a{background:transparent url(../img/accordion_opened.png) 15px center no-repeat; padding-left:50px;}
+.accordion dd > a{background:transparent url(../img/accordion_closed.png) 15px center no-repeat; padding-left:50px; border-bottom:1px solid #e7e7e7;}
+.accordion dd > a:hover{background:transparent url(../img/accordion_closed.png) 15px center no-repeat; padding-left:50px;}
+
+
+.feedback_form form{border:1px solid #ddd; padding:2em;}
+.muted_text{font-size:18px; color:#999}
+.small_muted_text h5{font-size:12px; color:#666}
+.small_muted_text h6{font-size:11px; color:#999}
+
+.dropdown_actions{text-align:left; max-width:300px!important; margin-left:-1.6em!important;}
+.dropdown_actions h4{background:#f3f3f3; margin:-15px -20px 0px -20px!important; padding:10px; }
+
+.secure_input{background:url(../img/lock_icon.png) 5px center no-repeat!important; padding-left:28px!important;} 
+.billing_form form{border:1px solid #ddd; padding:2em;}
+
+
+.aim_login .promo {
+    background: url("../img/promo_header.png") no-repeat left top;
+    height: 260px;
+    margin:-32px 0 0 0;
+	display:block;
+}
+.aim_login .promo span {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Verela Round',Arial,sans-serif;
+    font-size: 31px;
+    opacity: 0.8;
+    padding: 15px 25px;
+    position: absolute;
+    text-shadow: 2px 2px #000000;
+    top: 0px;
+    width: 375px;
+	line-height:42px;
+}
+
+.quote {
+    background: none repeat scroll 0 0 #D9E1E7;
+    color: #2F3740;
+    font-size: 24px;
+    margin: 0px;
+    padding: 15px 0px;
+    text-align: center;
+	min-height:48px;
+	height:auto;
+}
+.quote span {
+    background: url("../img/quote_left.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 26px;
+    padding: 0 33px;
+}
+.quote span.right {
+    background: url("../img/quote_right.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    padding: 0;
+    width: 35px;
+}
+.aim_login .login{margin:0px auto; width:50%; padding:30px 10%}
+
+
+#footer {
+    background-color: #171C22;
+    clear: both;
+    color: #AEAEAE;
+    text-align: center;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+}
+#footer a, #footer a:visited, #footer .link {
+    color: #F7F7F7;
+}
+#footer a:hover {
+    color: #E77337;
+}
+#footer .links {
+    color: #CACACA;
+    font-size: 12px;
+    padding: 5px 0;
+    position: relative;
+    vertical-align: middle;
+}
+#footer .links .links-logo {
+    padding-right: 50px;
+    vertical-align: middle;
+}
+#footer .links .links-container {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#footer .links a, #footer .links a:visited, #footer .links .link {
+    padding: 0 6px;
+}
+
+.vendor_form form{ padding:2em;}
+.vendor_form .right-form-box{background:#fcfcfc; border-left:1px solid #e7e7e7; padding:1em; padding-left:2em}
+.vendor_form .left-form-box{padding-right:2em;}
+
+.billing_subscription table td, .billing_history table td{
+	vertical-align:top;
+}
+
+.top-bar .name h1 a{line-height:43px!important;}
+
+label span.checkbox_text{
+	margin-left: 5px;
+    margin-top: -1px;
+    position: absolute;
+}
+
+.payment_types{padding:1em 1em 0em 1em; margin:0 0em 1em 0em!important; background:#fcfcfc; border:1px solid #e7e7e7;}
+.payment_types .columns{margin-bottom:1.5em;}
+
+.check_sample{position:relative;z-index:9999; width:100%; margin-top:-4em}
+.check_sample img{position:absolute; left:0px; border:1px solid #ddd}
+
+
+html select{background-image:none!important;}
+*select{background-image:none!important;}

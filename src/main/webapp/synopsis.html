@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AOL Pulsar - Synopsis Generator</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/custom_ps.css" />
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/modernizr.js"></script>
+<script src="js/vendor/fastclick.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/jquery.min.js"></script>
+
+<script src="js/foundation/foundation.topbar.js"></script>
+<script src="js/foundation/foundation.dropdown.js"></script>
+<script src="js/generate.synopsis.js"></script>
+<script>
+	$(document).foundation();
+</script>
+
+</head>
+<body>
+	<div class="contain-to-grid sticky">
+		<nav class="top-bar" data-topbar data-options="sticky_on: all">
+			<section class="top-bar-section">
+				<ul class="title-area">
+					<li class="name">
+						<h1>
+							<a href="#"><img
+								src="https://aimenterprise.aol.com/images/aol_logo.png"
+								alt="AIM logo" /> PULSAR</a>
+						</h1>
+					</li>
+				</ul>
+				<!-- Right Nav Section -->
+			</section>
+		</nav>
+	</div>
+	<br>
+	<br>
+	<div class="row billing_subscription">
+		<div class="large-11 medium-11 small-12 large-centered columns">
+			<h4 class="left">
+				<strong>Generate a synopsis </strong>
+			</h4>
+			<br>
+			<!-- <form name="frmSynopsis" method="post" action="GenerateSynopsis"> -->
+			<div class="row">
+				<div class="large-12 columns">
+					<label>Enter URL <input type="text" id="url"
+						placeholder="http://www.aol.com/article/" />
+					</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<label>OR .. You can paste the text up to 10,000 chars <textarea
+							id="text" placeholder="Brief 120 word synopsis..." rows="6"></textarea>
+					</label>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="large-12 columns">
+					<a href="#" id="btnSynopsis" class="button">Submit & Generate
+						Synopsis</a>
+				</div>
+			</div>
+			<!-- </form> -->
+			<div class="panel" id="brief-synopsis" style="display: none"></div>
+			<br> <br> <br>
+		</div>
+	</div>
+	</div>
+	<div id="footer">
+		<div class="links">
+			<img src="https://aimenterprise.aol.com/images/aol_logo.png"
+				class="links-logo"> <span class="links-container"> <sup>&copy;</sup>
+				2014 AOL Inc. All Rights Reserved. | <a
+				href="http://privacy.aol.com">Privacy Policy</a> |<a
+				href="http://legal.aol.com/aimTOS">AIM Terms of Service</a>
+			</span>
+		</div>
+	</div>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script>
+      $(document).foundation();
+    </script>
+</body>
+</html>
